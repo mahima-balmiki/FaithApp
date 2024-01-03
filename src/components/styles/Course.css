@@ -1,0 +1,45 @@
+.course
+{
+    background-color: rgb(235, 212, 235);
+    padding: 10px;
+    width: 32%;
+    position: absolute;
+    top: 46vh;
+    left: 65%;
+    border-radius: 5px;
+}
+.fees-heading
+{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.currency
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+.amount
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+.course p
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: lighter;
+}
+.course button
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+.course button:hover
+{
+    cursor: pointer;
+}

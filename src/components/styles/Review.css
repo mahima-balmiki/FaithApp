@@ -1,0 +1,36 @@
+.reviewer_img
+{
+    height: 30px;
+    width: 30px;
+    background-image: url('./reviewer.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.reviewer_info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewer span:first-child
+{
+    font-weight: bold;
+}
+.reviewer
+{
+    font-size: 0.8em;
+}
+.review
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 120px;
+    background-color: rgba(173, 166, 166, 0.2);
+    margin-top: 70px;
+
+}

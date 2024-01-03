@@ -1,0 +1,26 @@
+.about_course
+{
+    width: 60%;
+    padding-left: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li::before{
+    content: "\2713";
+    color: black; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    /* margin-right: 1em; */
+    vertical-align: auto;
+    display: inline-block;
+  }
+  li
+  {
+    padding-left: 20px;
+    margin-left: 1em;
+  }

@@ -1,0 +1,47 @@
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%; 
+    height: 50vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    z-index: 1;
+  }
+
+.header
+{
+    padding: 50px;
+    padding-top: 150px;
+    background-image: url('./bg-photo.jpeg');
+    background-size: cover;
+    background-position: left top;
+    height: 50vh;
+    position: relative;
+    width: 100%;
+}
+.name
+{
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+.title
+{
+    width: 60%;
+    z-index: 4;
+    margin: 0px 0px;
+    padding: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.text
+{
+    position: absolute;
+    top: 30vh;
+    color: white;
+    width: 70%;
+    z-index: 2;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}

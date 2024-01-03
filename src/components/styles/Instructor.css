@@ -1,0 +1,39 @@
+.instructor
+{
+    width: 60% ;
+    padding-left: 100px;
+}
+.instructor img
+{
+    width: 25px;
+}
+.social_media
+{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 60px;
+}
+.social_media a
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    margin-top: 70px;
+}
+.profile_photo
+{
+    background-image: url('./baba.jpeg') ;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    flex-grow: 1;
+}
+.content
+{
+    display: flex;
+    gap: 20px;
+}
